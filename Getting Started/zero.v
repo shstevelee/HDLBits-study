@@ -1,3 +1,6 @@
+// Solution by Seunghyeok Lee
+// Problem: Zero
+
 module top_module ( ouput zero ) 
     
     assign zero = 1'b0;
