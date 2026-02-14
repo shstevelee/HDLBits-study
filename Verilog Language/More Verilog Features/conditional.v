@@ -1,0 +1,16 @@
+// Solution by Seunghyeok Lee
+// Problem: Conditional ternary operator
+// Problem link: https://hdlbits.01xz.net/wiki/Conditional
+
+module top_module (
+    input [7:0] a, b, c, d,
+    output [7:0] min
+);
+	
+    wire [7:0] min1, min2;
+    // assign intermediate_result1 = compare? true: false;
+    assign min1 = (a < b)? a: b;
+    assign min2 = (c < d)? c: d;
+    assign min = (min1 < min2)? min1: min2;
+    
+endmodule
