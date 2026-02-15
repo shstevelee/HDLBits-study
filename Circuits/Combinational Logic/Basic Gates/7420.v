@@ -1,6 +1,6 @@
 // Solution by Seunghyeok Lee
 // Problem: 7420 chip
-// Problem link: https://hdlbits.01xz.net/wiki/Exams/7420
+// Problem link: https://hdlbits.01xz.net/wiki/7420
 
 module top_module ( 
     input p1a, p1b, p1c, p1d,
